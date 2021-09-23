@@ -1,0 +1,24 @@
+@media(max-width:1024px){
+    .header-div{
+        width: 900px;
+    }
+}
+@media(max-width:320px){
+    .nav-div{
+        display: none;
+    }
+    .header-div{
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .logo-div{
+        width: 100px;
+    }
+    .logo{
+        width: 100%;
+    }
+}
