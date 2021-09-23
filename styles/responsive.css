@@ -2,6 +2,26 @@
     .header-div{
         width: 900px;
     }
+    .li-text{
+        font-size: 15px;
+    }
+    .section1{
+        width: 900px;
+        height: auto;
+    }
+    .left-box-heading{
+        font-size: 30px;
+    }
+    .left-box-div{
+        width: 150px;
+        height: auto;
+    }
+    .right-box{
+        width: 500px;
+    }
+    .program-image{
+        width: 100%;
+    }
 }
 @media(max-width:320px){
     .nav-div{
@@ -21,4 +41,41 @@
     .logo{
         width: 100%;
     }
+    .section1{
+        flex-direction: column;
+        width:300px;
+        height: auto;
+        align-items: center;
+    }
+    .left-box{
+        width: 300px;
+        height: auto; 
+    }
+    .left-box-heading{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .left-box-text{
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    .left-box-div{
+        width: 90px;
+        height: auto;
+    }
+    .left-box-text2{
+        font-size: 8px;
+    }
+    .waving-hand{
+        width: 25px;
+    }
+    .right-box{
+        width: 300px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .program-image{
+        width: 100%;
+    }
+
 }
