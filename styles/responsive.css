@@ -27,6 +27,32 @@
         width:900px;
     }
 }
+@media(max-width:768px){
+    .header-div{
+        width: 600px;
+    }
+    .nav-div{
+        width: 400px;
+    }
+    .section1{
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-box{
+        height: auto;
+        margin-top: 50px;
+    }
+    .section2{
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right-box{
+        height: auto;
+    }
+}
+
 @media(max-width:320px){
     .nav-div{
         display: none;
