@@ -33,7 +33,7 @@
     }
     .header-div{
         display: flex;
-        width: 295px;
+        width: 285px;
         justify-content: space-between;
     }
     .fa-bars{
@@ -52,7 +52,7 @@
         align-items: center;
     }
     .left-box{
-        width: 295px;
+        width: 280px;
         height: auto; 
     }
     .left-box-heading{
@@ -74,7 +74,7 @@
         width: 25px;
     }
     .right-box{
-        width: 295px;
+        width: 285px;
         height: auto;
         margin-top: 30px;
     }
@@ -102,5 +102,7 @@
     .container-heading-text{
         width: 200px;
     }
-
+    .box{
+        width: 230px;
+    }
 }
